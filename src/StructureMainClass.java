@@ -25,6 +25,7 @@ public class StructureMainClass
 
         myStructure.pushFirst(7);
         myStructure.pushLast(11);
+        myStructure.showList();
 
         System.out.println(myStructure.peekFirst());
         System.out.println(myStructure.peekLast());
