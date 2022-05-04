@@ -24,7 +24,7 @@ public class StructureTest {
     {
         Structure newStructure = new Structure();
         newStructure.pushLast(31);
-        assertTrue(newStructure.peekFirst().equals("31));
+        assertTrue(newStructure.peekFirst().equals("31"));
     }
                                             
     @Test
